@@ -28,9 +28,9 @@ if HAS_OPENCV:
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-TOP_IMAGE_PATH = os.path.join(BASE_DIR, "Screenshot 2025-10-12 185245.png")
-FRONT_IMAGE_PATH = os.path.join(BASE_DIR, "Screenshot 2025-10-12 185254.png")
-SIDE_IMAGE_PATH = os.path.join(BASE_DIR, "Screenshot 2025-10-12 185304.png")
+TOP_IMAGE_PATH = os.path.join(BASE_DIR, "top_view.png")
+FRONT_IMAGE_PATH = os.path.join(BASE_DIR, "front_view.png")
+SIDE_IMAGE_PATH = os.path.join(BASE_DIR, "side_view.png")
 OUTPUT_DIRECTORY = BASE_DIR
 
 # Reconstruction Parameters

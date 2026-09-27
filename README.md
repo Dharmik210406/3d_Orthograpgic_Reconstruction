@@ -62,9 +62,9 @@ Place these files in the same directory as `reconstruct_3d.py`:
 
 | File | Meaning |
 | --- | --- |
-| `Screenshot 2025-10-12 185245.png` | Top view sketch |
-| `Screenshot 2025-10-12 185254.png` | Front view sketch |
-| `Screenshot 2025-10-12 185304.png` | Side view sketch |
+| `top_view.png` | Top view sketch |
+| `front_view.png` | Front view sketch |
+| `side_view.png` | Side view sketch |
 
 Input images may be grayscale or color; they are converted to grayscale automatically. The sketches should have dark object boundaries on a light background. If a file is missing or cannot be read, a built-in synthetic sketch is generated and saved using that filename.
 
@@ -149,9 +149,9 @@ When `EXTRACT_SURFACE_ONLY` is enabled, one 3D binary erosion is subtracted from
 reconstruct_3d.py                  Main reconstruction pipeline
 requirements.txt                   Python dependencies
 README.md                          Project documentation
-Screenshot ... 185245.png          Top input sketch
-Screenshot ... 185254.png          Front input sketch
-Screenshot ... 185304.png          Side input sketch
+top_view.png                       Top input sketch
+front_view.png                     Front input sketch
+side_view.png                      Side input sketch
 isometric_view.png                 Generated 3D render
 reconstruction_summary.png         Generated diagnostic dashboard
 mask_*.png                         Generated binary masks
